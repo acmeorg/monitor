@@ -1,0 +1,104 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    color: #fe5; /* Muted yellow color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em; /* Increase font size for all text */
+}
+
+.departure-monitor {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 80%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 100px; /* Logo height adjusted */
+    align-self: flex-start;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header .current-time {
+    color: #fff;
+    font-size: 1em;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adds space between rows */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff; /* White for all column names */
+}
+
+td {
+    background-color: #444;
+    color: #fe5; /* Muted yellow color */
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.dot-header {
+    width: 20px; /* Fixed width for the dot column */
+}
+
+.sati {
+    width: 10%;
+}
+
+.smjer {
+    width: 30%;
+}
+
+.peron-kol {
+    width: 20%;
+}
+
+.delay {
+    width: 15%; /* 50% wider */
+    color: #fff; /* White column header */
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.bright {
+    background-color: #00FF00; /* Bright green color */
+}
