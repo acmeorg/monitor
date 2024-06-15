@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarajevo odlazak</title>
+    <title>Sarajevo Odlazak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,7 +12,9 @@
         <header>
             <img src="logo.png" alt="Logo" class="logo">
             <h1 id="header-title">ODLAZAK</h1>
-            <div id="current-time" class="current-time"></div>
+            <div class="time-date">
+                <div id="current-time" class="current-time"></div>
+            </div>
         </header>
         <table>
             <thead>
@@ -20,9 +23,8 @@
                     <th class="sati" id="time-header">SATI</th>
                     <th class="smjer" id="destination-header">SMJER</th>
                     <th class="voz" id="train-header">VOZ</th>
-                    <th></th>
+                    <th class="tip" id="type-header"></th>
                     <th class="peron-kol" id="platform-track-header">PERON/KOL</th>
-                    <th class="delay" id="delay-header">KASNI</th>
                 </tr>
             </thead>
             <tbody id="departures-list">

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     background-color: #111;
     color: #fe5; /* Muted yellow color */
     display: flex;
@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 1.5em; /* Increase font size for all text */
 }
 
@@ -31,18 +31,21 @@ header .logo {
     align-self: flex-start;
 }
 
+.time-date {
+    text-align: right;
+    flex-grow: 1;
+}
+
 header h1 {
     color: #fff;
     font-size: 1.5em;
     margin: 0;
-    flex-grow: 1;
-    text-align: center;
 }
 
 header .current-time {
     color: #fff;
-    font-size: 1em;
-    text-align: right;
+    font-size: 1.5em;
+    font-weight: 700; /* Bold for time */
 }
 
 table {
@@ -64,6 +67,7 @@ th {
 td {
     background-color: #444;
     color: #fe5; /* Muted yellow color */
+    font-weight: 400; /* Medium weight for data text */
 }
 
 tr:last-child td {
@@ -82,13 +86,16 @@ tr:last-child td {
     width: 30%;
 }
 
-.peron-kol {
+.voz {
+    width: 10%;
+}
+
+.tip {
     width: 20%;
 }
 
-.delay {
-    width: 15%; /* 50% wider */
-    color: #fff; /* White column header */
+.peron-kol {
+    width: 30%;
 }
 
 .dot {
