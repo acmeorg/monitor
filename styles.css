@@ -40,6 +40,16 @@ header h1 {
     color: #fff;
     font-size: 1.5em;
     margin: 0;
+    position: relative;
+}
+
+header h1 .translation {
+    display: block;
+    font-size: 0.75em; /* Larger font size for English text */
+    font-style: italic; /* Italic text */
+    font-weight: normal; /* Not bold */
+    color: #aaa; /* Lighter color for translations */
+    margin-top: 5px;
 }
 
 header .current-time {
@@ -62,6 +72,16 @@ th, td {
 th {
     background-color: #333;
     color: #fff; /* White for all column names */
+    position: relative;
+}
+
+th .translation {
+    display: block;
+    font-size: 0.75em; /* Larger font size for English text */
+    font-style: italic; /* Italic text */
+    font-weight: normal; /* Not bold */
+    color: #aaa; /* Lighter color for translations */
+    margin-top: 5px;
 }
 
 td {
